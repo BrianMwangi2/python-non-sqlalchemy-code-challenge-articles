@@ -8,7 +8,7 @@ class Author:
 
     @property
     def name(self):
-        # Getter method for the name property
+        # method for the name property
         return self._name
 
     def articles(self):
@@ -59,7 +59,7 @@ class Magazine:
 
     @property
     def category(self):
-        # Getter method for the category property
+        #  method for the category property
         return self._category
 
     @category.setter
@@ -122,12 +122,12 @@ class Article:
 
     @property
     def title(self):
-        # Getter method for the title property
+        #  method for the title property
         return self._title
 
     @property
     def author(self):
-        # Getter method for the author property
+        #  method for the author property
         return self._author
 
     @author.setter
@@ -139,7 +139,7 @@ class Article:
 
     @property
     def magazine(self):
-        # Getter method for the magazine property
+        # method for the magazine property
         return self._magazine
 
     @magazine.setter
